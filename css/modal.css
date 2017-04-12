@@ -1,0 +1,46 @@
+/* ===========
+ * Modal styles
+ * ====================================================
+ */
+.ngbf-modal-popup {
+  z-index: -1;
+  display: none;
+  opacity: 0;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.25s ease; }
+
+.ngbf-modal-popup-block {
+  width: 80%;
+  height: auto;
+  color: #FFF;
+  position: relative;
+  top: 20vh;
+  left: 10%;
+  background: #505050; }
+
+.ngbf-modal-popup-title-bar {
+  background: #3c3c3c; }
+
+.ngbf-modal-popup-close {
+  position: relative;
+  top: -4px;
+  float: right;
+  display: inline-block;
+  color: #FFF;
+  font-size: 20px; }
+
+.ngbf-modal-popup-content {
+  padding: 20px; }
+
+@media only screen and (min-width: 1000px) {
+  .ngbf-modal-popup-block {
+    width: 40%;
+    top: 50vh;
+    left: 50%;
+    margin: -5% 0 0 -20%; } }

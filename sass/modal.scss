@@ -3,7 +3,7 @@
  * ====================================================
  */
 
-.modal-popup {
+.ngbf-modal-popup {
     z-index: -1;
     display: none;
     opacity: 0;
@@ -17,7 +17,7 @@
     transition: opacity 0.25s ease;
 }
 
-.modal-popup-block {
+.ngbf-modal-popup-block {
     width: 80%;
     height: auto;
     color: #FFF;
@@ -27,11 +27,11 @@
     background: rgb(80,80,80);
 }
 
-.modal-title {
+.ngbf-modal-popup-title-bar {
     background: rgb(60,60,60);
 }
 
-.modal-popup-close {
+.ngbf-modal-popup-close {
     position: relative;
     top: -4px;
     float: right;
@@ -40,17 +40,13 @@
     font-size: 20px;
 }
 
-.modal-popup-block p {
+.ngbf-modal-popup-content {
     padding: 20px;
-}
-
-.disclaimer-text {
-    font-family: 'XFINITY-Sans-Thin';
 }
 
 @media only screen and (min-width: 1000px) {
 
-    .modal-popup-block {
+    .ngbf-modal-popup-block {
         width: 40%;
         top: 50vh;
         left: 50%;
