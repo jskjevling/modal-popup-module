@@ -1,0 +1,15 @@
+.hover-block {
+    display: none;
+    opacity: 0;
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 500px;
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: opacity 0.25s ease-in-out;
+}

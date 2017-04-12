@@ -1,0 +1,60 @@
+/* ===========
+ * Modal styles
+ * ====================================================
+ */
+
+.modal-popup {
+    z-index: -1;
+    display: none;
+    opacity: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 0.25s ease;
+}
+
+.modal-popup-block {
+    width: 80%;
+    height: auto;
+    color: #FFF;
+    position: relative;
+    top: 20vh;
+    left: 10%;
+    background: rgb(80,80,80);
+}
+
+.modal-title {
+    background: rgb(60,60,60);
+}
+
+.modal-popup-close {
+    position: relative;
+    top: -4px;
+    float: right;
+    display: inline-block;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.modal-popup-block p {
+    padding: 20px;
+}
+
+.disclaimer-text {
+    font-family: 'XFINITY-Sans-Thin';
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .modal-popup-block {
+        width: 40%;
+        top: 50vh;
+        left: 50%;
+        margin: -5% 0 0 -20%;
+    }
+
+}

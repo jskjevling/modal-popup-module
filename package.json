@@ -1,0 +1,32 @@
+{
+  "name": "modal-popup-module",
+  "version": "1.0.0",
+  "description": "A small JavaScript module for creating dynamic modal popups.",
+  "main": "demo.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jschevling/modal-popup-module.git"
+  },
+  "keywords": [
+    "modal",
+    "javascript",
+    "module"
+  ],
+  "author": "Jeremy Skjevling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jschevling/modal-popup-module/issues"
+  },
+  "homepage": "https://github.com/jschevling/modal-popup-module#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-changed": "^2.0.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "sassdoc": "^2.2.0"
+  }
+}

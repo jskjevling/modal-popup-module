@@ -1,0 +1,1563 @@
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Thin.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Thin.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Light.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Light.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-RegularItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XfinityStandard";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard/XfinityStandard-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "XfinityStandardCondensed";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Medium.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Medium.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XfinityStandardCondensed";
+  src: url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Bold.woff2") format("woff2"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Bold.woff") format("woff"), url("https://edge.static-assets.top.comcast.net/staticsites/fonts/latest/Xfinity_Standard_Condensed/XfinityStandardCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-family: "XfinityStandard";
+  -webkit-font-smoothing: antialiased; }
+
+div, a, p {
+  font-size: 16px;
+  font-family: "XfinityStandard"; }
+
+a {
+  color: #2b9cd8;
+  font-weight: 400; }
+
+sup {
+  line-height: 100%; }
+
+p {
+  line-height: 1.4; }
+
+h1, .h1 {
+  font-size: 2.625rem; }
+@media only screen and (max-width: 652px) {
+  h1, .h1 {
+    font-size: 2.429rem; } }
+@media only screen and (max-height: 435px) {
+  h1, .h1 {
+    font-size: 2.729em; } }
+
+h2, .h2 {
+  font-size: 2.225em; }
+@media only screen and (max-width: 652px) {
+  h2, .h2 {
+    font-size: 1.4em; } }
+@media only screen and (max-height: 435px) {
+  h2, .h2 {
+    font-size: 1.7em; } }
+
+h3, .h3 {
+  font-size: 1.875rem;
+  line-height: 1.2; }
+@media only screen and (max-width: 652px) {
+  h3, .h3 {
+    font-size: 1.35rem; } }
+
+h4, .h4 {
+  font-size: 1.500rem; }
+@media only screen and (max-width: 652px) {
+  h4, .h4 {
+    font-size: 1.2rem; } }
+@media only screen and (max-height: 435px) {
+  h4, .h4 {
+    font-size: 1.3em; } }
+
+p {
+  font-size: 1rem; }
+
+ul li {
+  padding: 3px 0;
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-left: 10px; }
+
+.global-wrapper a:hover {
+  text-decoration: none; }
+
+.grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+@media only screen and (max-width: 1024px) {
+  .grid {
+    padding: 30px; } }
+@media only screen and (max-width: 652px) {
+  .grid {
+    padding: 30px 10px; } }
+.grid h1, .grid h2, .grid h3, .grid h4 {
+  padding-bottom: 30px; }
+@media only screen and (max-width: 1024px) {
+  .grid h1, .grid h2, .grid h3, .grid h4 {
+    padding: 0 10px 30px; } }
+@media only screen and (max-width: 800px) {
+  .grid .col img {
+    margin: 0 auto;
+    display: block; } }
+.grid_two-col .col {
+  width: 48.5%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  float: left; }
+.grid_two-col .col:last-of-type {
+  margin-right: 0; }
+@media only screen and (max-width: 800px) {
+  .grid_two-col .col {
+    width: 100%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    float: left; }
+  .grid_two-col .col:last-of-type {
+    margin-right: 0; } }
+.grid_three-col .col {
+  width: 32.66667%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  float: left; }
+.grid_three-col .col:last-of-type {
+  margin-right: 0; }
+@media only screen and (max-width: 800px) {
+  .grid_three-col .col {
+    width: 100%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    float: left; }
+  .grid_three-col .col:last-of-type {
+    margin-right: 0; } }
+@media only screen and (max-width: 800px) {
+  .grid_three-col .grid .col {
+    width: 31.33333%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    float: left; }
+  .grid_three-col .grid .col:last-of-type {
+    margin-right: 0; } }
+@media only screen and (max-width: 652px) {
+  .grid_three-col .grid .col {
+    width: 100%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    float: left; }
+  .grid_three-col .grid .col:last-of-type {
+    margin-right: 0; } }
+.grid_third-left .col {
+  width: 33%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  float: left; }
+.grid_third-left .col:last-of-type {
+  width: 65%;
+  margin-right: 0; }
+.grid:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.grid:first-child {
+  padding-top: 30px; }
+
+.grey {
+  background-color: #f1f1f1; }
+
+.full-image {
+  background-size: cover;
+  background-position: top;
+  background-image: url("../../img/banner.jpg");
+  padding: 5% 20px 20%; }
+@media only screen and (max-width: 800px) {
+  .full-image {
+    padding: 10% 20px; } }
+@media only screen and (max-width: 652px) {
+  .full-image {
+    padding: 15% 20px; } }
+@media only screen and (max-width: 377px) {
+  .full-image {
+    padding: 10% 10px; } }
+@media only screen and (max-width: 360px) {
+  .full-image {
+    padding: 5% 10px; } }
+
+.left {
+  float: left;
+  font-size: 1.143rem;
+  width: 45%;
+  color: #fff; }
+.left .content {
+  padding-top: 10vh; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.padding-x {
+  padding: 40px 0; }
+
+.absolute {
+  position: absolute; }
+.absolute-left {
+  left: 0;
+  width: 49%; }
+.absolute-right {
+  right: 0; }
+@media only screen and (max-width: 800px) {
+  .absolute {
+    position: relative;
+    margin: 0 auto;
+    display: block; } }
+
+.disc {
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 4px; }
+.disc li {
+  list-style: disc; }
+.disc li span {
+  font-family: "XfinityStandard"; }
+
+.last-full li:last-child {
+  width: 100%; }
+
+.footnote {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.875rem; }
+
+.group {
+  overflow: auto; }
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+html {
+  text-rendering: optimizeLegibility !important;
+  font-family: "XfinityStandard" !important; }
+
+*, div {
+  font-family: "XfinityStandard";
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  overflow-x: hidden; }
+
+@media only screen and (max-width: 1024px) {
+  .main-content, .content, .overlay-multi-column.overlay-black {
+    width: 100%; } }
+
+.inner-container .content-right {
+  margin-top: 10%; }
+.inner-container .content-right h2 {
+  padding-bottom: 20px; }
+
+.inner-container {
+  clear: both;
+  margin: 0 auto;
+  max-width: 1280px; }
+@media only screen and (max-width: 800px) {
+  .inner-container {
+    padding: 40px; } }
+@media only screen and (max-width: 652px) {
+  .inner-container {
+    padding: 40px 20px; } }
+.inner-container .content-right {
+  width: 38%;
+  float: right; }
+@media only screen and (max-width: 1024px) {
+  .inner-container .content-right {
+    width: 40%; } }
+@media only screen and (max-width: 800px) {
+  .inner-container .content-right {
+    width: 100%;
+    float: none;
+    padding: 0 40px; } }
+@media only screen and (max-width: 652px) {
+  .inner-container .content-right {
+    padding: 0; } }
+
+.content-container {
+  padding: 30px 0 0; }
+
+a[href]:not([tabindex='-1']):focus, area[href]:not([tabindex='-1']):focus, input:not([disabled]):not([tabindex='-1']):focus, select:not([disabled]):not([tabindex='-1']):focus, textarea:not([disabled]):not([tabindex='-1']):focus, button:not([disabled]):not([tabindex='-1']):focus, iframe:not([tabindex='-1']):focus, [tabindex]:not([tabindex='-1']):focus, [contentEditable=true]:not([tabindex='-1']):focus {
+  outline-color: #2b9cd8;
+  outline-style: dotted;
+  outline-width: 2px; }
+
+body .global-header .logo img {
+  display: none; }
+
+body .global-header a.seo-logo {
+  background: url(/~/Media/2015/xfinity-white.aspx) no-repeat;
+  background-size: 100%;
+  width: 80px;
+  margin: 10px 30px 10px 0;
+  height: 30px; }
+
+.global-header {
+  height: 50px;
+  background: #171717;
+  padding: 0 10px; }
+@media only screen and (max-width: 800px) {
+  .global-header {
+    display: none; } }
+
+.global-header .content {
+  max-width: 1280px;
+  width: 100%;
+  background-image: none;
+  height: 50px; }
+
+.global-header .item .link {
+  display: block;
+  padding: 18px 30px 14px;
+  font-weight: 400;
+  border-bottom: none;
+  font-size: 16px;
+  padding: 14px 30px; }
+
+.global-header .item-active .link {
+  position: relative;
+  border-bottom: 3px solid #2b9cd8;
+  background-color: #171717;
+  background-image: none; }
+
+.global-header .item-active .link:after {
+  display: none; }
+
+.global-header .item .link:hover {
+  background-image: none;
+  background-color: #171717;
+  border-bottom: 3px solid #2b9cd8;
+  text-decoration: none; }
+
+.global-header .user-panel .authentication a, .global-header .user-panel .services a {
+  color: #fff;
+  display: inline-block;
+  height: 50px;
+  padding: 18px 30px 14px;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px; }
+
+.global-header .user-panel .authentication, .global-header .user-panel .services, .global-header .user-panel .sign-in {
+  height: 50px; }
+
+.global-header a.sign-in:hover, .global-header .user-panel .services a:hover {
+  text-decoration: none;
+  background-color: #171717;
+  background-image: none;
+  border-bottom: 3px solid #2b9cd8; }
+
+.global-header .business-portal {
+  float: right;
+  margin: 10px 0 10px 0;
+  border-left: 1px solid #5e5e5e;
+  padding: 5px 20px 5px 30px;
+  font-size: 14px;
+  line-height: 20px; }
+
+.global-header .link:hover {
+  text-decoration: none; }
+
+.global-header .user-panel .user-panel-info {
+  padding: 10px 0 0 5px; }
+
+.subheader-container {
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: none;
+  clear: both;
+  font-weight: bold;
+  height: 50px;
+  background: #fff;
+  position: relative;
+  z-index: 198; }
+@media only screen and (max-width: 800px) {
+  .subheader-container {
+    display: block; } }
+
+.header, .subheader {
+  max-width: 1280px;
+  width: 100%;
+  height: 50px;
+  position: relative; }
+
+.subheader-nav-list > li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border-left: none;
+  font-size: 14px;
+  font-family: "XfinityStandard"; }
+
+.subheader-nav-list.dropdown-header a.sub-header-visual {
+  z-index: 101;
+  height: 50px;
+  position: relative;
+  color: #333;
+  background-image: none;
+  text-decoration: none;
+  margin: 0 40px 0 0;
+  padding: 18px 30px 14px 10px;
+  font-size: 16px;
+  line-height: 16px; }
+
+a.sub-header-visual:before, a.sub-header-visual:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 8px;
+  background-color: #333;
+  position: absolute;
+  right: 16px;
+  top: 23px;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  transform: rotate(130deg);
+  transition: all 0.3s ease; }
+
+a.sub-header-visual:after {
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  transform: rotate(50deg);
+  right: 10px; }
+
+.subheader-nav-list.dropdown-header > li > a:hover, .subheader-nav-list.dropdown-header > li > a:hover span {
+  font-size: 16px;
+  border-bottom: 3px solid #2b9cd8; }
+
+.subheader-nav-list.dropdown-header > li:hover a.sub-header-visual, .subheader-nav-list.dropdown-header > li.expanded a.sub-header-visual {
+  background-image: none; }
+
+.subheader-nav-list.dropdown-header > li:hover > a.sub-header-visual:before, .subheader-nav-list.dropdown-header > li.expanded > a.sub-header-visual:before {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 1px;
+  background-image: none;
+  color: #333;
+  left: auto;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  transform: rotate(50deg); }
+
+.subheader-nav-list.dropdown-header > li:hover > a.sub-header-visual:after, .subheader-nav-list.dropdown-header > li.expanded > a.sub-header-visual:after {
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  transform: rotate(130deg); }
+
+.subheader-nav-bg {
+  border-radius: 0px;
+  box-shadow: none;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: auto;
+  padding: 0;
+  z-index: 9999;
+  border: none;
+  background: #fff;
+  margin-left: 0; }
+
+.subheader-nav-list ul {
+  width: auto;
+  padding: 0; }
+
+.subheader-nav-list ul a {
+  padding: 15px 20px 15px 17px;
+  border-left: 3px solid #fff;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  width: 220px;
+  position: relative;
+  z-index: 999;
+  color: #333;
+  font-family: "XfinityStandard"; }
+
+.subheader-nav-list ul li:hover a {
+  background: transparent;
+  border-left: 3px solid #2b9cd8;
+  outline: none;
+  text-decoration: none;
+  color: #333;
+  padding-left: 17px; }
+
+.subheader-search-container {
+  border: none;
+  width: 420px;
+  height: 50px;
+  padding: 0;
+  float: right; }
+
+.subheader-search {
+  float: left;
+  height: 35px;
+  padding: 0;
+  width: auto;
+  background: #f2f2f2;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  box-shadow: none; }
+
+.subheader-search input[type="text"] {
+  font: 400 14px 'XfinityStandard';
+  width: 180px;
+  height: 35px;
+  border: none;
+  padding: 10px;
+  background: none;
+  outline: none; }
+
+.subheader-search .autocomplete {
+  left: 1px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  position: absolute;
+  width: 100%; }
+
+p#suggestions {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 5px; }
+
+.autocomplete_item {
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 100; }
+
+.comcast-logo, .xfinity-logo, .header-nav a, .header-nav li.selected span, .header-signin-container, .subheader-nav.dropdown-header a span, .subheader-nav.dropdown-header h3 span, .subheader-nav.dropdown-header li.expanded span, .subheader-nav.dropdown-header li:hover h3, .subheader-nav.dropdown-header li.expanded h3, .subheader-search-container .cart-inactive, .subheader-search-container .cart-active, .subheader-search-container input[type='submit'], .header-backarrow {
+  background-color: transparent; }
+
+.subheader-search-container a:hover {
+  text-decoration: none; }
+
+.subheader-search-container .cart-inactive {
+  background: url("~/Media/97BBEA09F63C40AC8F16567AE5E6134E.aspx") no-repeat center 3px;
+  background-size: 40px;
+  float: left;
+  height: 40px;
+  width: 43px;
+  margin: 5px 10px;
+  padding: 8px;
+  position: relative;
+  cursor: default; }
+
+.subheader-search-container .cart-active {
+  background: url("~/Media/16E4A38A899140E7AE5BE799254DFEE4.aspx") no-repeat center 3px;
+  background-size: 40px;
+  float: left;
+  height: 40px;
+  width: 43px;
+  margin: 5px 10px;
+  padding: 8px;
+  position: relative;
+  cursor: pointer; }
+
+.subheader-search-container .cart-active:hover {
+  background-position: center 3px;
+  margin: 5px 10px; }
+
+.subheader-search-container .search-header {
+  position: relative;
+  float: left;
+  margin: 8px 25px 8px 0; }
+
+a#hyperlinkMP {
+  float: left;
+  padding: 0 6px;
+  height: 50px;
+  margin: 0;
+  line-height: 50px; }
+
+a#hyperlinkMP:hover {
+  text-decoration: none; }
+
+#hyperlinkMP span {
+  font-size: 14px !important;
+  color: #333; }
+
+#hyperlinkMP span:hover {
+  text-decoration: none; }
+
+.header li, .subheader li {
+  margin-left: 0; }
+
+.menu, .burger, .burger:before, .burger:after, #showLeft, a#subNav, a#subMa, .subnav, .plus, .plus:before, .plus:after, .plus-ma:before, .plus-ma:after {
+  transition: all 0.5s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -o-transition: all 0.5s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -webkit-transition: all 0.5s cubic-bezier(0.7, 0.01, 0.3, 1); }
+
+.mobile-header {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  z-index: 199;
+  background: #2d2d2d;
+  height: 40px;
+  display: none; }
+@media only screen and (max-width: 800px) {
+  .mobile-header {
+    display: block; } }
+
+nav#menu, .search-header {
+  display: block; }
+
+.toplogo {
+  height: 40px; }
+
+.toplogo a {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 40px;
+  padding: 5px 0; }
+
+.cart-active {
+  background: url(~/Media/3DB315C1F24D435384F8FE58180AE535.aspx) no-repeat center;
+  background-size: 80%; }
+
+.cart-inactive {
+  background: url(~/Media/8426145E8DF94B8A84F4749370403A96.aspx) no-repeat center;
+  background-size: 80%; }
+
+.cart-inactive, .cart-active {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  float: none;
+  top: 0;
+  right: 0; }
+
+.cart-active span, .cart-inactive span {
+  position: absolute;
+  display: block;
+  visibility: visible;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0); }
+
+.leftBar {
+  background: #2d2d2d;
+  height: 100%;
+  position: absolute;
+  width: 40px; }
+
+.rightLinks {
+  margin-left: 40px; }
+
+.leftBar .more {
+  background: url(~/Media/100C8987273B4E17B6EA3B7B5063819C.aspx) no-repeat center; }
+
+.leftBar .shop {
+  background: url(~/Media/100C8987273B4E17B6EA3B7B5063819C.aspx) no-repeat center; }
+
+.leftBar .ma {
+  background: url(~/Media/100C8987273B4E17B6EA3B7B5063819C.aspx) no-repeat center; }
+
+/* Search */
+#subheader-search {
+  height: 40px;
+  padding: 0 !important;
+  width: 100% !important; }
+
+input#shop-search-submit {
+  background-image: url("/~/Media/www_comcast_com/Includes/Images/Batch2/sprites/sprite-header.png");
+  background-repeat: no-repeat;
+  border: none;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  background-position: right -164px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  background-color: transparent; }
+@media only screen and (max-width: 800px) {
+  input#shop-search-submit {
+    top: 350px; } }
+
+#subheader-search-right {
+  width: 100% !important;
+  padding: 0;
+  background: #fff !important; }
+
+.acc-hidden {
+  position: absolute;
+  left: -9999px; }
+
+#subheader-search input[type="text"] {
+  font: 300 14px 'Open Sans', Helvetica Neue, Helvetica, sans-serif !important;
+  width: 100%;
+  height: 40px !important;
+  border: none;
+  background: #fff;
+  outline: none;
+  padding: 4px 10px !important;
+  margin: 0;
+  border-radius: 0;
+  box-sizing: border-box; }
+
+.autocomplete {
+  width: 100%;
+  line-height: 18px; }
+
+b.close {
+  width: 100%;
+  left: 7px;
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-top: none;
+  z-index: 100; }
+
+#subheader-search-container a {
+  display: block;
+  font-size: 10px;
+  margin: 4px 0 0; }
+
+.menu {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 120vh;
+  z-index: 999;
+  right: 100%;
+  background: #3b3b3b; }
+
+.menu.open {
+  right: 0; }
+
+.menu a {
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  padding: 12px 0 12px 12px;
+  border-top: 1px solid #4F4F4F;
+  border-bottom: 1px solid #2D2D2D;
+  cursor: auto;
+  text-align: left;
+  font-weight: 400;
+  font-family: "XfinityStandard"; }
+
+.burger {
+  width: 20px;
+  height: 3px;
+  margin: 6px 0;
+  background: #fff; }
+
+.burger:before, .burger:after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  z-index: -1; }
+
+.burger:before {
+  top: 11px; }
+
+.burger:after {
+  top: 25px; }
+
+.active .burger:before {
+  top: 18px !important;
+  background: #fff !important;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.active .burger:after {
+  top: 18px !important;
+  background: #fff !important;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.active .burger {
+  background: none !important; }
+
+#showLeft {
+  width: 50px;
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  padding: 3px 12px 5px;
+  /* padding: 12px; */
+  z-index: 1000;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: -238px;
+  line-height: 18px;
+  color: #fff;
+  font-size: 14px; }
+
+#showLeft.active {
+  display: block; }
+
+a#subNav, a#subMa {
+  position: relative; }
+
+.subnav {
+  position: absolute;
+  right: 100%;
+  background: #3b3b3b;
+  width: 100%; }
+
+.subnav a {
+  padding: 12px 0 12px 20px; }
+
+.menu.open .subnav.show {
+  right: 0;
+  z-index: 999; }
+
+.plus {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.plus:before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  right: 12px;
+  top: 8px;
+  position: absolute;
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); }
+
+.plus:after {
+  content: '';
+  right: 8px;
+  top: 4px;
+  width: 24px;
+  height: 14px;
+  background: #3b3b3b;
+  position: absolute; }
+
+.active .plus:before {
+  transform: rotate(45deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  right: 16px;
+  top: 12px; }
+
+.active .plus:after {
+  width: 24px;
+  height: 24px;
+  right: 20px;
+  top: 8px; }
+
+.plus-ma:before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  right: 12px;
+  top: 8px;
+  position: absolute;
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); }
+
+.plus-ma:after {
+  content: '';
+  right: 8px;
+  top: 4px;
+  width: 24px;
+  height: 14px;
+  background: #3b3b3b;
+  position: absolute; }
+
+.active .plus-ma:before {
+  transform: rotate(45deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  right: 16px;
+  top: 12px; }
+
+.active .plus-ma:after {
+  width: 24px;
+  height: 24px;
+  right: 20px;
+  top: 8px; }
+
+#overlay-localize h2 a {
+  color: #1471da; }
+
+.form-row input.text {
+  height: 38px; }
+
+.form-row .input-5, .form-field .input-5 {
+  width: 75px; }
+
+.overlay-waiting {
+  height: 95px; }
+
+.subheader-search input[type="text"] {
+  padding: 15px 0; }
+
+@media screen and (max-width: 640px) {
+  #overlay-localize {
+    width: 100%; }
+
+  #overlay-localize .icon-house {
+    display: none; }
+
+  .overlay-content {
+    height: 550px; }
+
+  #overlay-localize .btn {
+    margin: 40px 3px 0 -3px; }
+
+  .form-row input.text {
+    height: 38px;
+    width: 280px; }
+
+  #overlay-localize .form-field {
+    position: relative;
+    margin: 0 0 10px 10px; }
+
+  #overlay-localize .overlay-viewport p {
+    margin-top: 0px; }
+
+  #overlay-localize p {
+    line-height: 16px; } }
+.hero .inner-container {
+  color: #fff; }
+@media only screen and (max-width: 1024px) {
+  .hero .inner-container {
+    padding-top: 5vh;
+    padding-left: 0; } }
+@media only screen and (max-width: 800px) {
+  .hero .inner-container {
+    padding: 0; } }
+.hero .inner-container .h1 {
+  padding: 20px 0; }
+@media only screen and (max-width: 1024px) {
+  .hero .inner-container .h1 {
+    padding: 10px 0; } }
+.hero .inner-container .h4 {
+  font-family: "XfinityStandard"; }
+.hero .inner-container .sub-header {
+  display: inline; }
+.hero .inner-container .sub-header span {
+  font-size: 1.2em; }
+.hero .inner-container p {
+  line-height: 1.1; }
+.hero .inner-container .btn {
+  margin: 60px 0 20px; }
+.hero .inner-container img {
+  display: inline-block;
+  float: left;
+  margin: 10px 10px 0 0; }
+@media only screen and (max-width: 652px) {
+  .hero .inner-container img {
+    width: 20%; } }
+.hero .content {
+  width: 54%;
+  margin: 0; }
+@media only screen and (max-width: 1124px) {
+  .hero .content {
+    width: 90%; } }
+@media only screen and (max-width: 800px) {
+  .hero .content {
+    width: 100%; } }
+.hero-container {
+  height: 75vh;
+  max-height: 75vh;
+  overflow: hidden;
+  position: relative;
+  width: 99vw; }
+.hero-video_overlay {
+  background-color: rgba(8, 47, 74, 0.6);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2; }
+.hero-video_overlay .content {
+  color: #fff;
+  margin-top: 75px;
+  text-align: center; }
+.hero-video_container {
+  height: 100%;
+  left: -50%;
+  position: absolute;
+  width: 200%; }
+.hero-video_container video {
+  bottom: -99999px;
+  height: auto;
+  left: -99999px;
+  margin: auto;
+  min-height: 100%;
+  min-width: 50%;
+  position: absolute;
+  right: -99999px;
+  top: -99999px; }
+.hero-video_sub-header {
+  text-align: center; }
+
+.card {
+  background-color: #fff;
+  padding: 30px 20px 0px;
+  position: relative; }
+.card .content {
+  width: auto; }
+.card img {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%; }
+.card p {
+  padding-bottom: 30px;
+  font-size: 1.143em; }
+.card li {
+  float: left;
+  margin-left: 14px; }
+@media only screen and (max-width: 1024px) {
+  .card .grid {
+    padding: 10px 0; } }
+.card .col {
+  text-align: center;
+  border-left: 1px solid #f1f1f1;
+  padding-left: 5px; }
+@media only screen and (max-width: 1024px) {
+  .card .col {
+    padding-left: 7px; } }
+@media only screen and (max-width: 800px) {
+  .card .col {
+    padding-left: 30px; } }
+@media only screen and (max-width: 652px) {
+  .card .col {
+    padding-left: 0;
+    border-left: none; } }
+.card .col p {
+  font-size: 0.875rem;
+  font-family: "XfinityStandard";
+  line-height: 1.1; }
+.card .col:first-child {
+  border-left: none;
+  padding-left: 0; }
+.card .col img {
+  margin-bottom: 20px; }
+@media only screen and (max-width: 652px) {
+  .card .col img {
+    margin: 0;
+    display: inline-block;
+    width: auto; } }
+.card-top {
+  margin-top: -50px;
+  z-index: 4;
+  padding-bottom: 30px; }
+@media only screen and (max-width: 800px) {
+  .card-top:not(:first-child) {
+    margin-top: 0; } }
+.card-top li {
+  color: #7e7e7e;
+  font-size: 0.875rem;
+  width: 46%;
+  text-align: left; }
+.card-top li:nth-child(even) {
+  margin-right: 0; }
+@media only screen and (max-width: 652px) {
+  .card-top li {
+    width: 100%;
+    text-align: left; } }
+@media only screen and (max-width: 800px) {
+  .card-top .content {
+    text-align: center; } }
+.card .agreement {
+  display: inline-block;
+  font-size: .7rem;
+  padding: 5px 0 0 15px; }
+@media only screen and (max-width: 800px) {
+  .card .agreement {
+    text-align: left; } }
+.card .btn {
+  margin: 20px auto; }
+.card .list-header {
+  padding-bottom: 15px; }
+@media only screen and (max-width: 652px) {
+  .card_holder {
+    padding: 0 30px; } }
+
+.price {
+  display: inline-block;
+  margin-left: 50px;
+  font-family: "XfinityStandard";
+  vertical-align: top;
+  line-height: 1;
+  margin-top: -6px;
+  letter-spacing: -.035em;
+  font-size: 4.5em; }
+@media only screen and (max-width: 1024px) {
+  .price {
+    margin-left: 0;
+    font-size: 4.751em; } }
+.price sup {
+  font-size: 1.5rem;
+  display: inline-block;
+  vertical-align: 35px;
+  margin: 0 -12px; }
+@media only screen and (max-width: 1024px) {
+  .price sup {
+    margin: 0 -15px; } }
+
+.agreement {
+  display: inline-block;
+  font-size: 1rem;
+  margin-left: 10px;
+  line-height: 1.3; }
+@media only screen and (max-width: 652px) {
+  .agreement {
+    padding: 0 0 10px 10px; } }
+
+.btn {
+  text-decoration: none;
+  font-size: 1.125em;
+  display: block;
+  cursor: pointer;
+  transition: all .2s ease-in-out; }
+.btn span {
+  padding: 10px 40px;
+  border-radius: 25px;
+  color: #fff;
+  transition: all .2s ease-in-out;
+  display: inline-block; }
+.btn-blue span {
+  background-color: #2b9cd8;
+  border: 1px solid #2b9cd8; }
+.btn-blue span:hover {
+  background-color: #fff;
+  border: 1px solid #2b9cd8;
+  color: #2b9cd8; }
+.btn-link {
+  color: #2b9cd8;
+  padding: 10px 0; }
+.btn-link:hover, .btn-link:focus {
+  text-decoration: underline; }
+
+#footer-general span {
+  color: #bbb;
+  font-size: 11px; }
+
+#footer-container {
+  background: #2c2c2c; }
+
+#footer-container #footer-share {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-size: 0px; }
+
+#footer-container #footer-share li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  border: none;
+  height: auto;
+  float: none;
+  background-image: url("/~/media/0b02255e2e8f4457976be2c78f6f9a0b.ashx");
+  margin-left: 0;
+  line-height: 1;
+  background-repeat: no-repeat; }
+
+#footer-container #footer-share li#footer-comcast span {
+  background-image: url("/~/media/0b02255e2e8f4457976be2c78f6f9a0b.ashx");
+  background-repeat: no-repeat; }
+
+#footer-container #footer-comcast {
+  background-image: none !important; }
+
+#footer-container #footer-share a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  display: inline-block;
+  color: #fff; }
+
+#footer-container #footer-comcast span {
+  background-position: 50px -5px;
+  display: block;
+  width: 245px;
+  height: 30px;
+  text-indent: -9999px; }
+
+#footer-container #footer-twitter {
+  padding: 0 0 0 43px;
+  background-position: 0px -36px; }
+
+#footer-container #footer-youtube {
+  padding: 0 0 0 68px;
+  background-position: 0px -68px; }
+
+#footer-container #footer-facebook {
+  padding: 0 0 0 28px;
+  background-position: 17px -102px; }
+
+#footer-container #footer-links-container, #footer-container #footer-links-container a {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400; }
+
+#footer-container #footer-links-container #footer-general a {
+  font-weight: bold; }
+
+#footer-container #footer-links-container {
+  background: #2c2c2c;
+  padding: 70px 0 0;
+  border-top: 1px solid #434343; }
+
+#footer-container #footer-links ul {
+  width: 100%;
+  margin: 0;
+  padding: 0 45px 0 0; }
+
+#footer-container #footer-links > li {
+  display: inline-block;
+  width: 15%;
+  font-size: 12px;
+  margin-left: 0; }
+
+#footer-container #footer-links > li:last-child {
+  width: 10%; }
+
+#footer-container #footer-links ul li {
+  margin: 10px 0 0;
+  line-height: 1.4em; }
+
+#footer-container #footer-links li:last-child ul {
+  padding: 0; }
+
+#footer-container #footer-links h3 {
+  font-size: 12px;
+  color: #fff;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px; }
+
+#footer-container #footer-links {
+  width: 1160px;
+  margin: 0 auto;
+  font-size: 0px; }
+
+#footer-container #footer-general {
+  width: 100%;
+  margin: 65px auto 0;
+  padding: 32.5px 0;
+  line-height: 14px;
+  border-top: none;
+  background: #242424; }
+
+#footer-container #footer-general span {
+  background: url("/~/Media/2015/xfinity-white.aspx") no-repeat 10px 0;
+  background-size: 75px;
+  max-width: 1160px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px;
+  float: none;
+  height: 25px;
+  text-align: right;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 25px; }
+
+.absolute-left {
+  z-index: 20; }
+
+.inner-container.padding-x.group {
+  height: 590px; }
+
+.middle {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 900px;
+  position: relative; }
+.middle p {
+  margin-bottom: 20px; }
+
+.bottom {
+  background-image: url("../../img/XH-Devices.jpg");
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat; }
+.bottom h2 {
+  padding-bottom: 20px; }
+.bottom button {
+  margin: 30px auto; }
+@media only screen and (max-width: 652px) {
+  .bottom {
+    background-position-y: 160px; } }
+
+.pre-footer {
+  border-top: 1px solid #bbb;
+  font-family: "XfinityStandard"; }
+.pre-footer .grid {
+  padding-bottom: 0; }
+.pre-footer strong {
+  display: block;
+  font-weight: bold;
+  line-height: 1.5rem;
+  font-family: "XfinityStandard";
+  letter-spacing: 0.08em; }
+.pre-footer p {
+  margin: 0 0 16px; }
+.pre-footer a {
+  font-weight: normal; }
+
+.competition span {
+  background: transparent url("/~/Media/77848E46CAAD445E8A0EA6C216447556.ashx") no-repeat scroll left center;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 0 80px; }
+@media only screen and (max-width: 800px) {
+  .competition span {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb; } }
+
+.guarantee span {
+  background: transparent url("/~/Media/0F6F236353FC4BC99D1049F6F95E08A3.ashx") no-repeat scroll left center;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 0 85px; }
+
+.guarantee {
+  background: none; }
+
+#mainform .content p, div.main-content p {
+  margin: 0 !important; }
+
+div.main-content p.h2 {
+  margin: 0 0 10px 0; }
+
+.main-content, .ngbf-button-wrapper--signout {
+  display: none; }
+
+button {
+  border: none;
+  background-color: transparent; }
+
+@media screen and (max-width: 1200px) {
+  #footer-container {
+    min-width: 100%; }
+
+  #footer-container #footer-share {
+    width: 100%; }
+
+  #footer-container #footer-links {
+    width: 100%;
+    padding: 0 10px; } }
+@media screen and (max-width: 1100px) {
+  .global-header .item .link, .global-header .user-panel .authentication a, .global-header .user-panel .services a {
+    padding: 18px 20px 14px; }
+
+  .subheader-nav-list.dropdown-header a.sub-header-visual {
+    margin: 0 20px 0 0; }
+
+  .subheader-search-container {
+    width: 380px; }
+
+  #footer-container #footer-links ul {
+    padding: 0 25px 0 0; } }
+@media screen and (max-width: 980px) {
+  .global-header .item .link, .global-header .user-panel .authentication a, .global-header .user-panel .services a, .subheader-nav-list.dropdown-header a.sub-header-visual, .subheader-nav-list.dropdown-header > li > a:hover, .subheader-nav-list.dropdown-header > li > a:hover span, .subheader-nav-list ul a {
+    font-size: 14px; }
+
+  .subheader-nav-list.dropdown-header a.sub-header-visual {
+    margin: 0 10px 0 0; }
+
+  .global-header .item .link, .global-header .user-panel .authentication a, .global-header .user-panel .services a {
+    padding: 18px 15px 14px; }
+
+  .global-header .business-portal {
+    padding: 5px 20px; }
+
+  .subheader-search-container {
+    width: 350px; }
+
+  .subheader-search input[type="text"] {
+    width: 160px; }
+
+  body .global-header a.seo-logo {
+    margin: 10px 20px 10px 0; }
+
+  #footer-container #footer-links {
+    display: none; }
+
+  #footer-container #footer-links-container {
+    padding: 0; }
+
+  #footer-container #footer-general {
+    margin: 0 auto; } }
+@media screen and (max-width: 865px) {
+  .subheader-container {
+    display: none; }
+
+  body .global-header a.seo-logo {
+    width: 60px;
+    margin: 15px 20px 15px 0; }
+
+  .global-header .main-navigation {
+    min-width: 350px; }
+
+  #footer-container #footer-share {
+    display: none; } }
+@media screen and (max-width: 790px) {
+  .global-header .user-panel {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
