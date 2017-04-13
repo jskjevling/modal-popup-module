@@ -13,7 +13,7 @@
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
-  transition: opacity 0.25s ease; }
+  transition: opacity 0.5s ease; }
 
 .ngbf-modal-popup-block {
   width: 80%;
@@ -25,7 +25,8 @@
   background: #505050; }
 
 .ngbf-modal-popup-title-bar {
-  background: #3c3c3c; }
+  background: #3c3c3c;
+  padding: 20px; }
 
 .ngbf-modal-popup-close {
   position: relative;

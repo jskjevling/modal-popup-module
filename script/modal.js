@@ -4,10 +4,15 @@
   'use strict';
 
   var modal = {
+    /* The HTML element that will contain our modal content */
     modalBlock: document.querySelector('.ngbf-modal-popup'),
+    /* The title area for the modal */
     modalTitle: document.querySelector('.ngbf-modal-popup-title'),
+    /* The content area for the modal */
     modalContent: document.querySelector('.ngbf-modal-popup-content'),
+    /* Boolean to track visibility, not currently used, but here in case */
     modalIsVisible: false,
+    /* The calling element that triggered the modal */
     modalElement: {},
 
     polyfills: function polyfills () {
@@ -40,33 +45,46 @@
       document.addEventListener('click', this.triggerModal.bind(this), false);
       document.addEventListener('click', this.clearModal.bind(this), false);
     },
+    /* Method for handling styling when modal is shown */
     fadeModal: function fadeModal () {
+      this.modalBlock.style.display = 'block';
+      this.modalBlock.style.zIndex = '999999';
       this.modalBlock.style.opacity = '1';
+      this.modalIsVisible = true;
     },
+    /* Reset to defaults, remove inline styling */
+    resetModal: function resetModal () {
+      this.modalTitle.innerHTML = '';
+      this.modalContent.innerHTML = '';
+      this.modalBlock.style.display = '';
+      this.modalBlock.style.zIndex = '';
+      this.modalIsVisible = false;
+    },
+    /* Wait for transition to complete before resetting modal */
+    hideModal: function hideModal () {
+      this.modalBlock.style.opacity = '';
+      setTimeout(this.resetModal.bind(this), 500);
+    },
+    /* Verify the type of element being clicked, and if it's a modal element, show the modal */
     triggerModal: function triggerModal (e) {
       this.modalElement = e.target.closest('.modal-element');
       if (this.modalElement) {
         this.showModal(this.modalElement, e);
       }
     },
+    /* Use the data attributes to populate the modal with the intended content */
     showModal: function showModal (target, e) {
-      var modalTitle = target.getAttribute('data-modalTitle');
-      var modalContent = target.getAttribute('data-modalContent');
+      var modalTitle = target.getAttribute('data-modal-title');
+      var modalContent = target.getAttribute('data-modal-content');
       this.modalTitle.innerHTML = modalTitle;
       this.modalContent.innerHTML = modalContent;
-      this.modalBlock.style.display = 'block';
-      this.modalBlock.style.zIndex = '999999';
       this.fadeModal();
     },
-    clearModal: function clearModal (target, e) {
+    /* Verify that the clicked element is the close button, if so, clear the modal */
+    clearModal: function clearModal (e) {
       this.closeButton = e.target.closest('.ngbf-modal-popup-close');
-      if (this.modalIsVisible) {
-        this.modalTitle.innerHTML = '';
-        this.modalContent.innerHTML = '';
-        this.modalBlock.style.display = 'none';
-        this.modalBlock.style.zIndex = '-1';
-        this.modalBlock.style.opacity = '0';
-        this.modalIsVisible = false;
+      if (this.closeButton) {
+        this.hideModal();
       }
     },
     /* Initialization steps */

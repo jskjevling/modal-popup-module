@@ -14,7 +14,7 @@
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,0.5);
-    transition: opacity 0.25s ease;
+    transition: opacity 0.5s ease;
 }
 
 .ngbf-modal-popup-block {
@@ -29,6 +29,7 @@
 
 .ngbf-modal-popup-title-bar {
     background: rgb(60,60,60);
+    padding: 20px;
 }
 
 .ngbf-modal-popup-close {
