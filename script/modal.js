@@ -75,10 +75,17 @@
     /* Use the data attributes to populate the modal with the intended content */
     showModal: function showModal (target, e) {
       var modalTitle = target.getAttribute('data-modal-title');
+      var hoverContent = target.getAttribute('data-hover-content');
       var modalContent = target.getAttribute('data-modal-content');
-      this.modalTitle.innerHTML = modalTitle;
-      this.modalContent.innerHTML = modalContent;
-      this.fadeModal();
+      if (modalTitle && hoverContent && !modalContent) {
+        this.modalTitle.innerHTML = modalTitle;
+        this.modalContent.innerHTML = hoverContent;
+        this.fadeModal();
+      } else if (modalTitle && modalContent) {
+        this.modalTitle.innerHTML = modalTitle;
+        this.modalContent.innerHTML = modalContent;
+        this.fadeModal();
+      }
     },
     /* Verify that the clicked element is the close button, if so, clear the modal */
     clearModal: function clearModal (e) {
