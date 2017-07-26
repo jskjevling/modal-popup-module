@@ -10,10 +10,14 @@
     modalTitle: document.querySelector('.ngbf-modal-popup-title'),
     /* The content area for the modal */
     modalContent: document.querySelector('.ngbf-modal-popup-content'),
+    /* The close botton for the modal */
+    modalClose: document.querySelector('.ngbf-modal-popup-close'),
     /* Boolean to track visibility, not currently used, but here in case */
     modalIsVisible: false,
     /* The calling element that triggered the modal */
     modalElement: {},
+    /* The original calling element that triggered the modal */
+    modalTrigger: {},
 
     polyfills: function polyfills () {
       /* We need to make sure Element.matches is implemented, so we use this polyfill */
@@ -51,6 +55,7 @@
       this.modalBlock.style.zIndex = '999999';
       this.modalBlock.style.opacity = '1';
       this.modalIsVisible = true;
+      this.modalClose.focus();
     },
     /* Reset to defaults, remove inline styling */
     resetModal: function resetModal () {
@@ -59,6 +64,7 @@
       this.modalBlock.style.display = '';
       this.modalBlock.style.zIndex = '';
       this.modalIsVisible = false;
+      this.modalTrigger.focus();
     },
     /* Wait for transition to complete before resetting modal */
     hideModal: function hideModal () {
@@ -70,13 +76,14 @@
       this.modalElement = e.target.closest('.modal-element');
       if (this.modalElement) {
         this.showModal(this.modalElement, e);
+        this.modalTrigger = this.modalElement;
       }
     },
     /* Use the data attributes to populate the modal with the intended content */
     showModal: function showModal (target, e) {
-      var modalTitle = target.getAttribute('data-modal-title');
-      var hoverContent = target.getAttribute('data-hover-content');
-      var modalContent = target.getAttribute('data-modal-content');
+      var modalTitle = target.getAttribute('data-modal-title'),
+          hoverContent = target.getAttribute('data-hover-content'),
+          modalContent = target.getAttribute('data-modal-content');
       if (modalTitle && hoverContent && !modalContent) {
         this.modalTitle.innerHTML = modalTitle;
         this.modalContent.innerHTML = hoverContent;
@@ -100,6 +107,5 @@
       this.bindListeners();
     }
   };
-
   modal.initialize();
 }());
